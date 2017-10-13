@@ -3,7 +3,7 @@
 exports[`should render Header 1`] = `
 <header>
   <h1>
-    Expensify
+    Expenses
   </h1>
   <NavLink
     activeClassName="is-active"
