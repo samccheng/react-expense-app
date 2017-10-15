@@ -6,7 +6,7 @@ import { addStartExpense } from '../actions/expenses'
 export class AddExpense extends Component {
   onSubmit = (expense) => {
     this.props.addStartExpense(expense)
-    this.props.history.push('/')
+    this.props.history.push('/dashboard')
   }
 
   render() {
